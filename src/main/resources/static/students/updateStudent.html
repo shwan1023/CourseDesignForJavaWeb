@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Student</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>Update Student</h1>
+    <form action="/students/update" method="post" id="updateStudentForm">
+        <div class="input-group">
+            <label for="id">Student ID:</label>
+            <input type="number" id="id" name="id" required>
+        </div>
+
+        <div class="input-group">
+            <label for="newName">New Name:</label>
+            <input type="text" id="newName" name="newName">
+        </div>
+
+        <div class="input-group">
+            <label for="newAge">New Age:</label>
+            <input type="number" id="newAge" name="newAge">
+        </div>
+
+        <div class="input-group">
+            <label for="newEmail">New Email:</label>
+            <input type="email" id="newEmail" name="newEmail">
+        </div>
+
+        <input type="submit" value="Update Student" class="btn btn-primary">
+    </form>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+spring:
+  profiles:
+    active: dev # 默认的激活环境，可以在启动时通过命令行参数修改
